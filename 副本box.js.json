@@ -1,0 +1,190 @@
+{
+    "id": "chitou163.app.sub",
+    "name": "i-茅台应用订阅",
+    "author": "@chitou163",
+    "icon": "https://avatars.githubusercontent.com/u/149032092?v=4",
+    "repo": "https://github.com/chitou163",
+    "apps": [
+        {
+            "id": "iMaoTai",
+            "name": "i茅台",
+            "author": "@chitou163",
+            "script": "",
+            "descs_html": [
+                ""
+            ],
+            "icons": [
+                "https://raw.githubusercontent.com/FoKit/Scripts/main/images/iMaoTai.png",
+                "https://raw.githubusercontent.com/FoKit/Scripts/main/images/iMaoTai.png"
+            ],
+            "keys": [
+                "MT_TOKENS",
+                "MT_PROVINCE",
+                "MT_CITY",
+                "MT_DISTRICT",
+                "MT_ITEM_BLACK",
+                "MT_VERSION",
+                "MT_USERAGENT",
+                "MT_R"
+            ],
+            "settings": [
+                {
+                    "id": "MT_TOKENS",
+                    "name": "i茅台Token",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 1,
+                    "desc": ""
+                },
+                {
+                    "id": "MT_PROVINCE",
+                    "name": "省份",
+                    "val": "",
+                    "type": "text",
+                    "desc": "XX省 / 直辖市"
+                },
+                {
+                    "id": "MT_CITY",
+                    "name": "城市",
+                    "val": "",
+                    "type": "text",
+                    "desc": "XX市 / 直辖市"
+                },
+                {
+                    "id": "MT_DISTRICT",
+                    "name": "区域",
+                    "val": "",
+                    "type": "text",
+                    "desc": "xx区|xx区"
+                },
+                {
+                    "id": "MT_ITEM_BLACK",
+                    "name": "商品黑名单",
+                    "val": "",
+                    "type": "text",
+                    "desc": "2478|10056"
+                },
+                {
+                    "id": "MT_VERSION",
+                    "name": "APP版本号",
+                    "val": "",
+                    "type": "text",
+                    "desc": "x.x.x"
+                },
+                {
+                    "id": "MT_USERAGENT",
+                    "name": "用户标识",
+                    "val": "",
+                    "type": "text",
+                    "desc": "iOS;16.1.2;Apple;"
+                },
+                {
+                    "id": "MT_R",
+                    "name": "MT_R",
+                    "val": "",
+                    "type": "text",
+                    "desc": "clips_xxx"
+                }
+            ]
+        }
+        {
+      "id": "yuheng.huluwa",
+      "name": "葫芦娃预约",
+      "descs_html": [
+        "<p style='margin-left:20px;margin-top:20px;'>多账号配置参考:手机号1:ck1&手机号2:ck2...</p>"
+      ],
+      "keys": [
+        "huluwa_split",
+        "xlth_cookies",
+        "glyp_cookies",
+        "kglg_cookies",
+        "hlqg_cookies",
+        "zhcs_cookies",
+        "gyqp_cookies",
+        "llsc_cookies",
+        "ylqx_cookies"
+      ],
+      "settings": [
+        {
+          "id": "huluwa_split",
+          "name": "多账号分隔符",
+          "val": "&",
+          "type": "text",
+          "desc": ""
+        },
+        {
+          "id": "xlth_cookies",
+          "name": "新联惠购",
+          "val": null,
+          "type": "textarea",
+          "rows": 5,
+          "desc": ""
+        },
+        {
+          "id": "glyp_cookies",
+          "name": "贵旅优品",
+          "val": null,
+          "type": "textarea",
+          "rows": 5,
+          "desc": ""
+        },
+        {
+          "id": "kglg_cookies",
+          "name": "空港乐购",
+          "val": null,
+          "type": "textarea",
+          "rows": 5,
+          "desc": ""
+        },
+        {
+          "id": "hlqg_cookies",
+          "name": "航旅黔购",
+          "val": null,
+          "type": "textarea",
+          "rows": 5,
+          "desc": ""
+        },
+        {
+          "id": "zhcs_cookies",
+          "name": "遵航出山",
+          "val": null,
+          "type": "textarea",
+          "rows": 5,
+          "desc": ""
+        },
+        {
+          "id": "gyqp_cookies",
+          "name": "贵盐黔品",
+          "val": null,
+          "type": "textarea",
+          "rows": 5,
+          "desc": ""
+        },
+        {
+          "id": "llsc_cookies",
+          "name": "乐旅商城",
+          "val": null,
+          "type": "textarea",
+          "rows": 5,
+          "desc": ""
+        },
+        {
+          "id": "ylqx_cookies",
+          "name": "驿路黔寻",
+          "val": null,
+          "type": "textarea",
+          "rows": 5,
+          "desc": ""
+        }
+      ],
+      "author": "@chitou16",
+      "repo": "https://github.com/chitou163",
+      "icons": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/70/a4/56/70a456c9-4df9-3bdb-03b6-ecf99f13e7c1/AppIcon-1x_U007epad-0-10-0-85-220.png/144x144bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/70/a4/56/70a456c9-4df9-3bdb-03b6-ecf99f13e7c1/AppIcon-1x_U007epad-0-10-0-85-220.png/144x144bb.png"
+      ],
+      "script": ""
+    }
+    ]
+}
