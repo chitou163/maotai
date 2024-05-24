@@ -170,7 +170,6 @@ if ($.isNode()) {
         $.itemId = itemID;
         $.shopIds = $.stock[$.itemId];
         if (!$.shopIds) {
-          let message = ''; // 初始化 message 变量
           let msg = `❌ ${getProductInfo($.itemId, 'title')} [${$.itemId}]暂无可申购门店。\n`;
           console.log(msg);
           message += msg;
