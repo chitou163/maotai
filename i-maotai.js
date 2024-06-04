@@ -300,7 +300,7 @@ function getUserInfo() {
 // 获取申购列表
 function getSessionId() {
   let opt = {
-    url: `https://app.moutai519.com.cn/xhr/front/mall/index/common/popup/get?pageId=0/${zeroDate}`,
+    url: `https://static.moutai519.com.cn/mt-backend/xhr/front/mall/index/session/get/${zeroDate}`,
     headers: {
       // 'mt-device-id': DeviceID,
       'mt-user-tag': '0',
@@ -357,7 +357,7 @@ function getSessionId() {
 function getShopInfo() {
   console.log(`获取[${MT_PROVINCE + MT_CITY + MT_DISTRICT}]门店库存:\n`);
   let opt = {
-    url: `https://static.moutai519.com.cn/mt-backend/xhr/front/mall/shop/list/slim/v3/${$.sessionId}/${encodeURIComponent(MT_PROVINCE)}/10056/${zeroDate}`,
+    url: `https://static.moutai519.com.cn/mt-backend/xhr/front/mall/shop/list/slim/v3/${$.sessionId}/${encodeURIComponent(MT_PROVINCE)}/10056/1717430400000/${zeroDate}`,
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded',
     }
