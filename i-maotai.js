@@ -300,7 +300,7 @@ function getUserInfo() {
 // 获取申购列表
 function getSessionId() {
   let opt = {
-    url: `https://static.moutai519.com.cn/mt-backend/xhr/front/mall/index/session/get/${zeroDate}`,
+    url: `https://app.moutai519.com.cn/xhr/front/mall/index/common/popup/get/${zeroDate}`,
     headers: {
       // 'mt-device-id': DeviceID,
       'mt-user-tag': '0',
