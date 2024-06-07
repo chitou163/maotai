@@ -357,7 +357,7 @@ function getSessionId() {
 function getShopInfo() {
   console.log(`获取[${MT_PROVINCE + MT_CITY + MT_DISTRICT}]门店库存:\n`);
   let opt = {
-    url: `https://static.moutai519.com.cn/mt-backend/xhr/front/mall/shop/list/slim/v3/1071/%E5%B9%BF%E4%B8%9C%E7%9C%81/10941/${zeroDate}`,
+    url: `https://static.moutai519.com.cn/mt-backend/xhr/front/mall/shop/list/slim/v3/1071/%E5%B9%BF%E4%B8%9C%E7%9C%81/10941/1717430400000`,
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded',
     }
